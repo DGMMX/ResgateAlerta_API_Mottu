@@ -112,7 +112,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapHealthChecks("/health");
 
-app.MapGet("/", () => "✅ API QMove funcionando!");
+app.MapGet("/", () => "✅ API ResgateAlerta funcionando!");
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "80";
 app.Urls.Add($"http://*:{port}");
