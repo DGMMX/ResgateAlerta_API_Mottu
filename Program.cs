@@ -112,7 +112,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapHealthChecks("/health");
 
-app.MapGet("/", () => "✅ API ResgateAlerta funcionando!");
+app.MapGet("/", () => "✅ API MottuVisualizer funcionando!");
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "80";
 app.Urls.Add($"http://*:{port}");

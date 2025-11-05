@@ -23,8 +23,8 @@ Com essa solução, é possível rastrear o percurso de cada moto dentro do pát
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/hellomesq/QMove.NET
-   cd QMove.NET
+   git clone https://github.com/DGMMX/MottuVisualizer_Api.git
+   cd MottuVisualizer_Api
    ```
 
 2. Configure a connection string do Oracle no arquivo `appsettings.json`:
